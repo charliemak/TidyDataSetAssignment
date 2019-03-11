@@ -1,7 +1,7 @@
 # **TidyDataSetAssignment**
 ***
 
-### **File 1:  *run_analysis.R* ** 
+### File 1:  *run_analysis.R*
 
 **tidyDataSet() Function**
 
@@ -22,7 +22,7 @@ Step  |   Output Description/Data Source
 
 
 
-### **File 2:  *CodeBook.md* ** 
+### File 2:  *CodeBook.md*
 
 **Data dictionary for *tidyDataSet* **
 
