@@ -24,7 +24,7 @@ Step  |   Output Description/Data Source
 
 ### File 2:  *CodeBook.md*
 
-**Data dictionary for *tidyDataSet* **
+**Data dictionary for *tidyDataSet***
 
 * Provides detailed description of columns and values in *tidyDataSet* and data lineage
 * Complements File 1 description above  
