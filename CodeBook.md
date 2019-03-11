@@ -1,0 +1,10 @@
+### Data Dictionary---Tidy Data Set
+***
+
+
+Column          |   Description
+----------------|------------------------------
+**SubjectID**<br>*factor variable*   |   Subject labels (integers, range 1--30) for the derived time-frequency feature observations, corresponding to the 30 volunteer subjects. Analysis parameters for assignment result in final tidy data set containing only 19 of the original 30 unique subjects.<br>**Data Source:** *subject_test.txt*, *subject_train.txt*. 
+**ActivityDescription**<br>*factor variable* | Friendly descriptions for the 6 different categories of researcher-labeled activities that were manually assigned to the videoed subjects while wearing smartphones during the experiment.<br>**Data Source:** *activity_labels.txt*, *y_test.txt*. The latter data source includes activity labels (integers, range 1--6) for the derived time-frequency feature observations. The former data source includes integer labels and friendly activity descriptions. Both sets linked on the activity label to include friendly descriptions in the final tidy data set.
+**TimeFrequencyFeatureDescription**<br>*character variable*| Description of the original 561 time-frequency features derived from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. *t* denotes signals from the time domain. *f* denotes signals from the frequency domain. Analysis parameters for assignment result in final tidy data set containing only features that include mean() or std() calculations (79 of the original 561 features).<br>**Data Source:** *features.txt*. 
+**AvgDerivedFeatureValue**<br>*numeric variable*  | Time-frequency feature observations (range of possible values -1 to 1) averaged for each SubjectID during each ActivityDescription (e.g., averaged observations for each of the 79  time-frequency features for subjectID 10 during each of the 6 different activities, resulting in 474 values).<br>**Data Souce:** *X_test.txt*, *X_train.txt*. 
