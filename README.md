@@ -21,6 +21,7 @@ Step  |   Output Description/Data Source
 9     |   Establish final dataframe by summarizing average time-frequency feature variables for the grouped dateframe from step 8 output and arranging for readability<br>**Data Source:** *step 8 output*
 
 
+
 ### **File 2:  *CodeBook.md* ** 
 
 **Data dictionary for *tidyDataSet* **
